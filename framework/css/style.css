@@ -1,11 +1,13 @@
 * {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -ms-box-sizing: border-box;
-    box-sizing: border-box;
+  -webkit-box-sizing: border-box;-moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-img, embed, object, video {
+img,
+embed,
+object,
+video {
   max-width: 100%;
 }
 
@@ -16,7 +18,16 @@ body {
   line-height: 120%;
 }
 
-h1, h2, h3, h4, h5, p {
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
   font-family: "Lato", sans-serif;
   color: #444;
 }
@@ -121,7 +132,7 @@ p a:hover {
 /* Social Share Buttons */
 .social {
   max-width: 100%;
-  float:right;
+  float: right;
 }
 
 .share {
